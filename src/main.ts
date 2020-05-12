@@ -1,6 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
+import { ValidationPipe } from './common/pipes/validation.pipe';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
@@ -11,6 +12,9 @@ async function bootstrap() {
 
   // 全局过滤器
   // app.useGlobalFilters(new HttpExceptionFilter());
+
+  // 全局管道
+  // app.useGlobalPipes(new ValidationPipe());
 
   // 设置swagger文档相关配置
   const swaggerOptions = new DocumentBuilder()
