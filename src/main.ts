@@ -5,6 +5,9 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+  // 全局使用中间件
+  // app.use(logger)
+
   // 设置swagger文档相关配置
   const swaggerOptions = new DocumentBuilder()
     .setTitle('nest-starter api document')
