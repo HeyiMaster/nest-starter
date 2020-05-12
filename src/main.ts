@@ -1,5 +1,6 @@
 import { NestFactory } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
@@ -7,6 +8,9 @@ async function bootstrap() {
 
   // 全局使用中间件
   // app.use(logger)
+
+  // 全局过滤器
+  // app.useGlobalFilters(new HttpExceptionFilter());
 
   // 设置swagger文档相关配置
   const swaggerOptions = new DocumentBuilder()
