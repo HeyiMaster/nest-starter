@@ -11,7 +11,7 @@ async function bootstrap() {
   // app.use(logger)
 
   // 全局过滤器
-  // app.useGlobalFilters(new HttpExceptionFilter());
+  app.useGlobalFilters(new HttpExceptionFilter());
 
   // 全局管道
   // app.useGlobalPipes(new ValidationPipe());
