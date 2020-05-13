@@ -2,6 +2,8 @@ import { resolve } from 'path';
 import { Module, MiddlewareConsumer, RequestMethod } from '@nestjs/common';
 import { ConfigModule, ConfigService } from 'nestjs-config';
 import { MailerModule } from '@nest-modules/mailer';
+import { StatusMonitorModule } from 'nest-status-monitor';
+import statusMonitorConfig from './config/statusMonitor';
 import { LoggerMiddleware } from './common/middleware/logger.middleware';
 import { HelloModule } from './modules/hello/hello.module';
 import { ExceptionModule } from './modules/exception/exception.module';
@@ -11,20 +13,9 @@ import { EmailModule } from './modules/email/email.module';
 @Module({
   imports: [
     ConfigModule.load(resolve(__dirname, 'config', '**/!(*.d).{ts,js}')),
+    // TODO @nestjs/terminus almost the same
+    StatusMonitorModule.setUp(statusMonitorConfig),
     MailerModule.forRootAsync({
-      // useFactory: () => ({
-      //   transport: 'smtps://1255968521@qq.com:tsjjzmqcmhmoheje@smtp.qq.com',
-      //   defaults: {
-      //     from: '"nest-modules" <modules@nestjs.com>',
-      //   },
-      //   template: {
-      //     dir: path.join(__dirname, './templates/email'),
-      //     adapter: new PugAdapter(),
-      //     options: {
-      //       strict: true,
-      //     },
-      //   },
-      // }),
       useFactory: (config: ConfigService) => config.get('email'),
       inject: [ConfigService],
     }),
