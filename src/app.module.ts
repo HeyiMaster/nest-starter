@@ -1,6 +1,7 @@
 import { resolve } from 'path';
 import { Module, MiddlewareConsumer, RequestMethod } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { ScheduleModule } from '@nestjs/schedule';
 import { ConfigModule, ConfigService } from 'nestjs-config';
 import { MailerModule } from '@nest-modules/mailer';
 import { StatusMonitorModule } from 'nest-status-monitor';
@@ -12,6 +13,7 @@ import { ExceptionModule } from './modules/exception/exception.module';
 import { RoleGuardModule } from './modules/role-guard/role-guard.module';
 import { EmailModule } from './modules/email/email.module';
 import { UsersModule } from './modules/users/users.module';
+import { TasksModule } from './tasks/tasks.module';
 
 @Module({
   imports: [
@@ -26,6 +28,8 @@ import { UsersModule } from './modules/users/users.module';
       useFactory: (config: ConfigService) => config.get('email'),
       inject: [ConfigService],
     }),
+    ScheduleModule.forRoot(),
+    TasksModule,
     AuthModule,
     HelloModule,
     ExceptionModule,
