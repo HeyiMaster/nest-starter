@@ -15,6 +15,7 @@ import { ExceptionModule } from './modules/exception/exception.module';
 import { RoleGuardModule } from './modules/role-guard/role-guard.module';
 import { EmailModule } from './modules/email/email.module';
 import { UsersModule } from './modules/users/users.module';
+import { AlbumModule } from './modules/album/album.module';
 
 @Module({
   imports: [
@@ -29,8 +30,8 @@ import { UsersModule } from './modules/users/users.module';
       useFactory: (config: ConfigService) => config.get('email'),
       inject: [ConfigService],
     }),
-    ScheduleModule.forRoot(),
-    TasksModule,
+    // ScheduleModule.forRoot(),
+    // TasksModule,
     AudioModule,
     AuthModule,
     HelloModule,
@@ -38,6 +39,7 @@ import { UsersModule } from './modules/users/users.module';
     RoleGuardModule,
     EmailModule,
     UsersModule,
+    AlbumModule,
   ],
 })
 export class AppModule {
