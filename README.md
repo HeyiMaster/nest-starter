@@ -47,6 +47,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## 内容包括简介
+
+15次commit，从初始化项目，添加控制器，添加swagger文档支持，添加日志，添加错误处理，添加pipe，
+添加权限控制，邮件服务，config配置，监控， jwt的token令牌支持以及鉴权 ，基于mysql的讲解，任务队列。文件上传文件下载
+
+整套学下来基本覆盖企业的场景了，redis缓存，微服务后续会出
+
+自行拷贝项目，在vscode打开
+
+
 ## Test
 
 ```bash
