@@ -34,7 +34,7 @@
     "@nestjs/swagger": "^4.5.5",
     "@nestjs/typeorm": "^7.0.0",
     "bull": "^3.14.0",
-    "class-transformer": "^0.2.3",
+    "class-transformer": "^0.3.1",
     "class-validator": "^0.12.2",
     "compressing": "^1.5.1",
     "mysql": "^2.18.1",
