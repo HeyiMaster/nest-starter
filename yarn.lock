@@ -6040,10 +6040,10 @@ nodemailer@6.4.0:
   resolved "https://registry.npm.taobao.org/nodemailer/download/nodemailer-6.4.0.tgz#91482ebc09d39156d933eb9e6159642cd27bf02c"
   integrity sha1-kUguvAnTkVbZM+ueYVlkLNJ78Cw=
 
-nodemailer@^6.3.1, nodemailer@^6.4.6:
-  version "6.4.6"
-  resolved "https://registry.npm.taobao.org/nodemailer/download/nodemailer-6.4.6.tgz#d37f504f6560b36616f646a606894fe18819107f"
-  integrity sha1-039QT2Vgs2YW9kamBolP4YgZEH8=
+nodemailer@^6.3.1, nodemailer@^6.4.16:
+  version "6.4.16"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.16.tgz#5cb6391b1d79ab7eff32d6f9f48366b5a7117293"
+  integrity sha512-68K0LgZ6hmZ7PVmwL78gzNdjpj5viqBdFqKrTtr9bZbJYj6BRj5W6WGkxXrEnUl3Co3CBXi3CZBUlpV/foGnOQ==
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
