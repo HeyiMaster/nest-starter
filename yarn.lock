@@ -2048,10 +2048,10 @@ ci-info@^2.0.0:
   resolved "https://registry.nlark.com/ci-info/download/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha1-Z6npZL4xpR4V5QENWObxKDQAL0Y=
 
-class-transformer@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npm.taobao.org/class-transformer/download/class-transformer-0.2.3.tgz#598c92ca71dcca73f91ccb875d74a3847ccfa32d"
-  integrity sha1-WYySynHcynP5HMuHXXSjhHzPoy0=
+class-transformer@^0.3.1:
+  version "0.3.2"
+  resolved "https://registry.npm.taobao.org/class-transformer/download/class-transformer-0.3.2.tgz#779ef5f124784324b40f8e927c774bd96cdecd4b"
+  integrity sha1-d5718SR4QyS0D46SfHdL2WzezUs=
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -2757,9 +2757,9 @@ ejs@^3.1.2:
     jake "^10.6.1"
 
 electron-to-chromium@^1.3.723:
-  version "1.3.762"
-  resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.762.tgz?cache=0&sync_timestamp=1625004811210&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.762.tgz#3fa4e3bcbda539b50e3aa23041627063a5cffe61"
-  integrity sha1-P6TjvL2lObUOOqIwQWJwY6XP/mE=
+  version "1.3.763"
+  resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.763.tgz#93f6f02506d099941f557b9db9ba50b30215bf15"
+  integrity sha1-k/bwJQbQmZQfVXudubpQswIVvxU=
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -5699,7 +5699,7 @@ nodemailer@6.5.0:
   resolved "https://registry.nlark.com/nodemailer/download/nodemailer-6.5.0.tgz#d12c28d8d48778918e25f1999d97910231b175d9"
   integrity sha1-0Swo2NSHeJGOJfGZnZeRAjGxddk=
 
-nodemailer@^6.4.6, nodemailer@^6.5.0:
+nodemailer@^6.4.16, nodemailer@^6.5.0:
   version "6.6.2"
   resolved "https://registry.nlark.com/nodemailer/download/nodemailer-6.6.2.tgz#e184c9ed5bee245a3e0bcabc7255866385757114"
   integrity sha1-4YTJ7VvuJFo+C8q8clWGY4V1cRQ=
@@ -8042,7 +8042,7 @@ typedarray@^0.0.6:
   resolved "https://registry.nlark.com/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeorm@^0.2.24:
+typeorm@^0.2.25:
   version "0.2.34"
   resolved "https://registry.nlark.com/typeorm/download/typeorm-0.2.34.tgz#637b3cec2de54ee7f423012b813a2022c0aacc8b"
   integrity sha1-Y3s87C3lTuf0IwErgTogIsCqzIs=
@@ -8067,12 +8067,12 @@ typeorm@^0.2.24:
 
 typescript@4.2.3:
   version "4.2.3"
-  resolved "https://registry.nlark.com/typescript/download/typescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
+  resolved "https://registry.nlark.com/typescript/download/typescript-4.2.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftypescript%2Fdownload%2Ftypescript-4.2.3.tgz#39062d8019912d43726298f09493d598048c1ce3"
   integrity sha1-OQYtgBmRLUNyYpjwlJPVmASMHOM=
 
 typescript@^3.7.4:
   version "3.9.10"
-  resolved "https://registry.nlark.com/typescript/download/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
+  resolved "https://registry.nlark.com/typescript/download/typescript-3.9.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftypescript%2Fdownload%2Ftypescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
   integrity sha1-cPORCselHta+952ngAaQsZv3eLg=
 
 uc.micro@^1.0.1:
