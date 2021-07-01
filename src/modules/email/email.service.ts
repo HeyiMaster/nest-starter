@@ -12,7 +12,12 @@ export class EmailService {
       // subject: 'Testing Nest MailerModule ✔',
       subject: 'Walker Lee Love You ✔',
       // html: '<b>Welcome Frost!</b>',
-      template: 'welcome',
+      template: './welcome',
+      context: {
+        // Data to be sent to template engine.
+        code: 'cf1a3f828287',
+        username: 'walker lee',
+      },
     });
   }
 }

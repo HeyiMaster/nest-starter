@@ -1,7 +1,8 @@
 import { join } from 'path';
 export default {
   type: 'mysql',
-  host: 'localhost',
+  // host: 'localhost',
+  socketPath: '/tmp/mysql.sock',
   port: 3306,
   username: 'root',
   password: 'xiaoerxiaoer',

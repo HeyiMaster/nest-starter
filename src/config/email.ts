@@ -7,7 +7,7 @@ export default {
     from: '"nest-modules" <modules@nestjs.com>',
   },
   template: {
-    dir: join(__dirname, '../templates/email'),
+    dir: join(__dirname, '../templates/email/'),
     adapter: new PugAdapter(),
     options: {
       strict: true,

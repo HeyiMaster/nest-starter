@@ -8,6 +8,6 @@ export class EmailController {
   @Get()
   sendEmail(): string {
     this.emailService.sendEmail();
-    return 'ok';
+    return 'Message sent';
   }
 }
