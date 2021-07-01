@@ -29,11 +29,11 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## 学前准备
-vscode，
-chrome浏览器，
-Hyper，
-[postman](https://www.postman.com/)，
-[Sourcetree](https://www.sourcetreeapp.com/)
+- vscode 编辑器
+- chrome 浏览器
+- iterm2 命令行工具
+- [postman](https://www.postman.com/) 接口调试工具
+- [Sourcetree](https://www.sourcetreeapp.com/) git 可视化工具
 
 ## 序言
 在这次学习过程中, 您将了解 Nest 的核心基础知识。主要是了解基本的 nest 应用程序构建模块。
@@ -57,7 +57,6 @@ Hyper，
 如果有同学学习之后有心得，欢迎提PR书写以上对应模块的心得分享。
 
 ## TODO-list
-- graphql
 - 微服务
 - 消息系统（Kafka）日志系统
 - MongoDB + Mongoose
@@ -120,20 +119,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
 
 ## QQ交流群
 787585478
